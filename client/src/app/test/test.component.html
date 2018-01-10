@@ -1,1 +1,22 @@
 <img src="https://images.pexels.com/photos/776125/pexels-photo-776125.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb">
+<div class="jumbotron">
+    <div class="card-block">
+      <button class="btn btn-social-icon btn-google" (click)="signInWithGoogle()">
+        <span class="fa fa-google">google</span>
+      </button>
+      <button class="btn btn-social-icon btn-facebook" (click)="signInWithFB()">
+        <span class="fa fa-facebook"></span>
+      </button>
+    </div>
+
+
+    <div>
+      <img style="width: 80px;height: 80px;" class="card-img-top img-responsive photo" src="{{ user.photoUrl }}">
+      <div class="card-block">
+        <h4 class="card-title">{{ user.name }}</h4>
+        <p class="card-text">{{ user.email }}</p>
+      </div>
+      <div class="card-block">
+        <button class="btn btn-danger" (click)="signOut()">Sign out</button>
+      </div>
+    </div>
