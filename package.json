@@ -19,7 +19,8 @@
     "jquery": "^3.2.1",
     "mongoose": "^4.13.2",
     "ngx-bootstrap": "^2.0.0-rc.0",
-    "scrypt": "^6.0.3"
+    "scrypt": "^6.0.3",
+    "socket.io": "^2.0.4"
   },
   "keywords": [],
   "author": "",
