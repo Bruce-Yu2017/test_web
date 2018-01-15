@@ -29,3 +29,8 @@ app.listen(8000,function(){
 app.get("/", function(req, res){
   res.render('index');
 })
+
+
+var foo = "kevin ke";
+console.log(foo);
+
