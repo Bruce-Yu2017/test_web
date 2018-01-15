@@ -25,6 +25,7 @@ app.listen(8000,function(){
   console.log("App is running on port 8000!");
 })
 
+
 fdhfghfghfghfghfghfgtyutyiyuiyuouiouiouiotyuoyuiouyiouiouiotriutiyuiytiyutiyutiyutiyut
 fghjfgjhgfjhgkhjgkyukyuioyui
 dfhfghrtyutyiuuyiyui
@@ -37,3 +38,7 @@ fgjtyjtyujkyukgi
 app.post('/', function(req, res){
   console.log(asfsdfsdf)
 })
+app.get("/", function(req, res){
+  res.render('index');
+})
+
