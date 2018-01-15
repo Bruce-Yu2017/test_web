@@ -29,3 +29,11 @@ fdhfghfghfghfghfghfgtyutyiyuiyuouiouiouiotyuoyuiouyiouiouiotriutiyuiytiyutiyutiy
 fghjfgjhgfjhgkhjgkyukyuioyui
 dfhfghrtyutyiuuyiyui
 fgjtyjtyujkyukgi
+
+
+
+
+
+app.post('/', function(req, res){
+  console.log(asfsdfsdf)
+})
